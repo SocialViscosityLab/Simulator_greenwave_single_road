@@ -37,7 +37,7 @@ public class World {
 		// add leader to followers group
 		plattonA.addLeader(leaderA);
 		plattonB.addLeader(leaderB);
-		// Crates platoon
+		// Creates platoon
 		plattonA.populate(app, 15, 5, app.width-110, 0);
 		plattonB.populate(app, 15, 7, app.width-110, 200);
 		//plattonB.setColor(new Color(125,0,0));
